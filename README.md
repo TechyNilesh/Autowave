@@ -12,10 +12,6 @@
   <a href="https://pepy.tech/project/autowave"><img src="https://static.pepy.tech/personalized-badge/autowave?period=total&units=none&left_color=grey&right_color=blue&left_text=Downloads" alt="Downloads"/></a>
 </p>
 
-<p align="center">
-  <b>Creators:</b> <a href="https://nileshverma.com">Nilesh Verma</a> · <a href="https://github.com/pik1989">Satyajit Pattnaik</a> · <a href="https://github.com/erickeagle">Kalash Jindal</a>
-</p>
-
 ---
 
 Powered by pretrained transformer models (AST, Wav2Vec2, HuBERT) via HuggingFace — fine-tune a state-of-the-art audio classifier on your own dataset in a few lines of code.
@@ -189,7 +185,7 @@ convert_format("audio.wav", output_format="mp3")
 
 ## Core Contributors
 
-<table align="center" border="0" cellpadding="10">
+<table border="0" cellpadding="10">
   <tr>
     <td align="center">
       <a href="https://github.com/TechyNilesh">
