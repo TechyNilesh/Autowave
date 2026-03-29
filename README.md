@@ -227,4 +227,6 @@ If you use AutoWave in your research or project, please cite:
 
 ---
 
-<p align="center">Developed with ❤️ for ML researchers, data scientists, Python developers, speech engineers, and the open-source audio community.</p>
+## Developed with Love
+
+Developed with ❤️ for ML researchers, data scientists, Python developers, speech engineers, and the open-source audio community.
