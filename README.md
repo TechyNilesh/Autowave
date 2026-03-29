@@ -4,19 +4,41 @@
 
 <p align="center"><b>The simplest way to classify audio in Python.</b></p>
 
-Powered by pretrained transformer models (AST, Wav2Vec2, HuBERT) via HuggingFace — fine-tune a state-of-the-art audio classifier on your own dataset in 3 lines of code.
+<p align="center">
+  <img src="https://img.shields.io/badge/AutoWave-v2-orange.svg" alt="AutoWave v2"/>
+  <img src="https://img.shields.io/badge/Python-3.10+-blue.svg" alt="Python 3.10+"/>
+  <img src="https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg" alt="PyTorch 2.0+"/>
+  <img src="https://img.shields.io/badge/HuggingFace-Transformers-yellow.svg" alt="HuggingFace"/>
+  <a href="https://pepy.tech/project/autowave"><img src="https://static.pepy.tech/personalized-badge/autowave?period=total&units=none&left_color=grey&right_color=blue&left_text=Downloads" alt="Downloads"/></a>
+</p>
+
+<p align="center">
+  <b>Creators:</b> <a href="https://nileshverma.com">Nilesh Verma</a> · <a href="https://github.com/pik1989">Satyajit Pattnaik</a> · <a href="https://github.com/erickeagle">Kalash Jindal</a>
+</p>
+
+---
+
+Powered by pretrained transformer models (AST, Wav2Vec2, HuBERT) via HuggingFace — fine-tune a state-of-the-art audio classifier on your own dataset in a few lines of code.
 
 ```python
 from autowave import AudioClassifier
 
+# 1. Load and train
 model = AudioClassifier()
 model.fit("data/train/")
-model.predict("test.wav")  # {"label": "dog_bark", "confidence": 0.94}
+
+# 2. Predict
+result = model.predict("test.wav")
+print(result)  # {"label": "dog_bark", "confidence": 0.94}
+
+# 3. Evaluate
+metrics = model.evaluate("data/test/")
+print(f"Accuracy: {metrics['accuracy']:.2%}")
+
+# 4. Save & reload
+model.save("my_model/")
+loaded = AudioClassifier.load("my_model/")
 ```
-
-![Generic badge](https://img.shields.io/badge/AutoWave-v2-orange.svg) ![Generic badge](https://img.shields.io/badge/Python-3.10+-blue.svg) [![Downloads](https://static.pepy.tech/personalized-badge/autowave?period=total&units=none&left_color=grey&right_color=blue&left_text=Downloads)](https://pepy.tech/project/autowave)
-
-**Creators:** [Nilesh Verma](https://nileshverma.com) · [Satyajit Pattnaik](https://github.com/pik1989) · [Kalash Jindal](https://github.com/erickeagle)
 
 ---
 
