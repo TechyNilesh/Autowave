@@ -189,11 +189,22 @@ convert_format("audio.wav", output_format="mp3")
 
 ## Core Contributors
 
-| Name | Role | Links |
-|---|---|---|
-| [Nilesh Verma](https://nileshverma.com) | Creator & Lead Developer | [GitHub](https://github.com/TechyNilesh) |
-| [Satyajit Pattnaik](https://github.com/pik1989) | Co-Creator & Researcher | [GitHub](https://github.com/pik1989) |
-| [Kalash Jindal](https://github.com/erickeagle) | Co-Creator & Developer | [GitHub](https://github.com/erickeagle) |
+<p align="center">
+  <a href="https://github.com/TechyNilesh">
+    <img src="https://github.com/TechyNilesh.png" width="100" height="100" style="border-radius:50%" alt="Nilesh Verma"/><br/>
+    <b>Nilesh Verma</b>
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/pik1989">
+    <img src="https://github.com/pik1989.png" width="100" height="100" style="border-radius:50%" alt="Satyajit Pattnaik"/><br/>
+    <b>Satyajit Pattnaik</b>
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/erickeagle">
+    <img src="https://github.com/erickeagle.png" width="100" height="100" style="border-radius:50%" alt="Kalash Jindal"/><br/>
+    <b>Kalash Jindal</b>
+  </a>
+</p>
 
 ---
 
