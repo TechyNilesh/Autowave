@@ -2,8 +2,6 @@
   <img src="https://github.com/TechyNilesh/Autowave/blob/main/logo/autowave_logo.png?raw=true" alt="AutoWave - Automatic Audio Classification Library" width="250"/>
 </p>
 
-<h1 align="center">AutoWave v2</h1>
-
 <p align="center"><b>The simplest way to classify audio in Python.</b></p>
 
 Powered by pretrained transformer models (AST, Wav2Vec2, HuBERT) via HuggingFace — fine-tune a state-of-the-art audio classifier on your own dataset in 3 lines of code.
