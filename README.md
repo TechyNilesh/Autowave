@@ -163,6 +163,27 @@ convert_format("audio.wav", output_format="mp3")
 
 ---
 
-## License
+## Core Contributors
 
-MIT © Nilesh Verma, Satyajit Pattnaik, Kalash Jindal
+| Name | Role | Links |
+|---|---|---|
+| [Nilesh Verma](https://nileshverma.com) | Creator & Lead Developer | [GitHub](https://github.com/TechyNilesh) |
+| [Satyajit Pattnaik](https://github.com/pik1989) | Co-Creator & Researcher | [GitHub](https://github.com/pik1989) |
+| [Kalash Jindal](https://github.com/erickeagle) | Co-Creator & Developer | [GitHub](https://github.com/erickeagle) |
+
+---
+
+## Citation
+
+If you use AutoWave in your research or project, please cite:
+
+```bibtex
+@software{autowave2024,
+  author       = {Verma, Nilesh and Pattnaik, Satyajit and Jindal, Kalash},
+  title        = {{AutoWave}: Automatic Audio Classification with Pretrained Transformers},
+  year         = {2024},
+  version      = {2.0.0},
+  url          = {https://github.com/TechyNilesh/Autowave},
+  note         = {Python library for audio classification using AST, Wav2Vec2, HuBERT, and WavLM}
+}
+```
