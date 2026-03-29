@@ -224,3 +224,7 @@ If you use AutoWave in your research or project, please cite:
   note         = {Python library for audio classification using AST, Wav2Vec2, HuBERT, and WavLM}
 }
 ```
+
+---
+
+<p align="center">Developed with ❤️ for ML researchers, data scientists, Python developers, speech engineers, and the open-source audio community.</p>
