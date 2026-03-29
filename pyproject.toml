@@ -1,0 +1,57 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "AutoWave"
+version = "2.0.0"
+description = "The simplest way to classify audio in Python — pretrained transformers in 3 lines of code."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+    { name = "Nilesh Verma", email = "autowave3@gmail.com" },
+    { name = "Satyajit Pattnaik" },
+    { name = "Kalash Jindal" },
+]
+requires-python = ">=3.10"
+keywords = ["audio", "classification", "deep learning", "transformers", "speech", "sound"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Multimedia :: Sound/Audio :: Analysis",
+]
+dependencies = [
+    "torch>=2.0",
+    "torchaudio>=2.0",
+    "transformers>=4.35",
+    "datasets>=2.14",
+    "audiomentations>=0.36",
+    "librosa>=0.10",
+    "soundfile>=0.12",
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "scikit-learn>=1.3",
+    "tqdm>=4.65",
+    "matplotlib>=3.7",
+    "pydub>=0.25",
+    "onnxruntime>=1.16",
+    "accelerate>=0.24",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4", "pytest-cov>=4.1"]
+
+[project.urls]
+Homepage = "https://github.com/Autowave/Autowave"
+Repository = "https://github.com/Autowave/Autowave"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["autowave*"]
